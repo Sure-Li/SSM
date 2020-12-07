@@ -1,0 +1,10 @@
+package com.situ.lession01.dao;
+
+import com.situ.lession01.role.pojo.Role;
+/**
+ * 就九华对象
+ * @return
+ */
+public interface RoleDao {
+	int insertRole(Role role);
+}
