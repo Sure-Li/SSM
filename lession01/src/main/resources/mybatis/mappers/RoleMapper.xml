@@ -3,8 +3,39 @@
   PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.situ.lession01.dao.RoleDao">
+<!-- 定义include -->
+  <sql id="base_select">
+  SELECT ROW_ID,ROLE_TYPE,ROLE_NAME,ROLE_INFO,ACTIVE_FLAG,CREATE_BY,CREATE_DATE,UPDATE_BY,UPDATE_DATE FROM TB_ROLE WHERE ACTIVE_FLAG = 1
+  </sql>
+  <resultMap type="com.situ.lession01.role.pojo.Role" id="role_resultMap">
+  <id property="rowId" column="ROW_ID"/>
+  <result property="roleName" column="ROLE_NAME"></result>
+  <result property="roleType" column="ROLE_TYPE"></result>
+  <result property="roleInfo" column="ROLE_INFO"></result>
+  <result property="activeFlag" column="ACTIVE_FLAG"></result>
+  <result property="createBy" column="CREATE_BY"></result>
+  <result property="createDate" column="CREATE_DATE"></result>
+  <result property="updateBy" column="UPDATE_BY"></result>
+  <result property="updateDate" column="UPDATE_DATE"></result>
+  </resultMap>
   <insert id="insert" parameterType="com.situ.lession01.role.pojo.Role">
   	INSERT INTO `test`.`TB_ROLE` (`ROLE_NAME`, `ROLE_TYPE`) 
   	VALUES (#{roleName}, #{roleType}); 
   </insert>
+  <select id="findOne" resultMap="role_resultMap">
+  	<include refid="base_select"></include> AND ROW_ID = #{rowId}
+  </select>
+  <select id="findAll" resultMap="role_resultMap">
+  <!-- 使用include引入 -->
+  <include refid="base_select"></include>
+  </select>
+  <update id="update" parameterType="com.situ.lession01.role.pojo.Role">
+  UPDATE `test`.`TB_ROLE` SET `ROLE_TYPE` = #{roleType} , `ROLE_NAME` = #{roleName} , `ROLE_INFO` = #{roleInfo} , `ACTIVE_FLAG` =#{activeFlag} , `CREATE_BY` = #{createBy} , `CREATE_DATE` = #{createDate} ,`UPDATE_BY` = #{updateBy} , `UPDATE_DATE` = #{updateDate} WHERE `ROW_ID` = #{rowId}; 
+  </update>
+  <delete id="delete">
+  DELETE FROM TB_ROLE WHERE ROW_ID = #{rowId}
+  </delete>
+  <select id="findOneByName" resultMap="role_resultMap">
+  <include refid="base_select"></include> AND ROW_ID = #{rowId} AND ROLE_NAME = #{roleName}
+  </select>
 </mapper>

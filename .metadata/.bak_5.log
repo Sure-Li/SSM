@@ -7,9 +7,9 @@ Framework arguments:  -product org.eclipse.epp.package.jee.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
 
 This is a continuation of log file E:\SSM\.metadata\.bak_4.log
-Created Time: 2020-12-07 14:01:17.606
+Created Time: 2020-12-07 15:32:04.014
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.606
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:32:04.014
 !MESSAGE Exception occurred while creating an instance of the stream connection provider
 !STACK 0
 java.lang.RuntimeException: Exception occurred while creating an instance of the stream connection provider
@@ -95,7 +95,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.612
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:32:04.020
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 1
 org.eclipse.core.runtime.CoreException: Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
@@ -177,7 +177,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.computeJavaPath(XMLLanguageServer.java:146)
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
-!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 14:01:17.612
+!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 15:32:04.020
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 0
 java.lang.reflect.InvocationTargetException
@@ -330,7 +330,7 @@ java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\Program Fil
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.613
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:32:04.021
 !MESSAGE Exception occurred while creating an instance of the stream connection provider
 !STACK 0
 java.lang.RuntimeException: Exception occurred while creating an instance of the stream connection provider
@@ -416,7 +416,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.616
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:32:04.024
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 1
 org.eclipse.core.runtime.CoreException: Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
@@ -498,7 +498,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.computeJavaPath(XMLLanguageServer.java:146)
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
-!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 14:01:17.616
+!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 15:32:04.025
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 0
 java.lang.reflect.InvocationTargetException
@@ -651,7 +651,7 @@ java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\Program Fil
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.617
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:32:04.026
 !MESSAGE Exception occurred while creating an instance of the stream connection provider
 !STACK 0
 java.lang.RuntimeException: Exception occurred while creating an instance of the stream connection provider
@@ -737,7 +737,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.620
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:32:04.029
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 1
 org.eclipse.core.runtime.CoreException: Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
@@ -819,7 +819,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.computeJavaPath(XMLLanguageServer.java:146)
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
-!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 14:01:17.620
+!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 15:32:04.029
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 0
 java.lang.reflect.InvocationTargetException
@@ -972,7 +972,7 @@ java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\Program Fil
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.621
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:32:04.030
 !MESSAGE Exception occurred while creating an instance of the stream connection provider
 !STACK 0
 java.lang.RuntimeException: Exception occurred while creating an instance of the stream connection provider
@@ -1058,7 +1058,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.628
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:32:04.034
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 1
 org.eclipse.core.runtime.CoreException: Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
@@ -1140,7 +1140,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.computeJavaPath(XMLLanguageServer.java:146)
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
-!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 14:01:17.628
+!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 15:32:04.034
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 0
 java.lang.reflect.InvocationTargetException
@@ -1293,7 +1293,7 @@ java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\Program Fil
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.629
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:32:04.035
 !MESSAGE Exception occurred while creating an instance of the stream connection provider
 !STACK 0
 java.lang.RuntimeException: Exception occurred while creating an instance of the stream connection provider
@@ -1379,7 +1379,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.632
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:32:04.039
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 1
 org.eclipse.core.runtime.CoreException: Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
@@ -1461,7 +1461,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.computeJavaPath(XMLLanguageServer.java:146)
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
-!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 14:01:17.632
+!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 15:32:04.039
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 0
 java.lang.reflect.InvocationTargetException
@@ -1614,7 +1614,7 @@ java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\Program Fil
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.633
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:32:04.040
 !MESSAGE Exception occurred while creating an instance of the stream connection provider
 !STACK 0
 java.lang.RuntimeException: Exception occurred while creating an instance of the stream connection provider
@@ -1700,7 +1700,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.636
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:32:04.043
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 1
 org.eclipse.core.runtime.CoreException: Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
@@ -1782,7 +1782,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.computeJavaPath(XMLLanguageServer.java:146)
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
-!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 14:01:17.636
+!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 15:32:04.043
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 0
 java.lang.reflect.InvocationTargetException
@@ -1935,7 +1935,7 @@ java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\Program Fil
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.637
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:32:04.044
 !MESSAGE Exception occurred while creating an instance of the stream connection provider
 !STACK 0
 java.lang.RuntimeException: Exception occurred while creating an instance of the stream connection provider
@@ -2021,7 +2021,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.708
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:32:04.048
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 1
 org.eclipse.core.runtime.CoreException: Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
@@ -2103,7 +2103,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.computeJavaPath(XMLLanguageServer.java:146)
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
-!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 14:01:17.708
+!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 15:32:04.048
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 0
 java.lang.reflect.InvocationTargetException
@@ -2256,7 +2256,7 @@ java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\Program Fil
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.709
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:32:04.049
 !MESSAGE Exception occurred while creating an instance of the stream connection provider
 !STACK 0
 java.lang.RuntimeException: Exception occurred while creating an instance of the stream connection provider
@@ -2342,7 +2342,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.712
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:32:04.052
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 1
 org.eclipse.core.runtime.CoreException: Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
@@ -2424,7 +2424,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.computeJavaPath(XMLLanguageServer.java:146)
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
-!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 14:01:17.712
+!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 15:32:04.052
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 0
 java.lang.reflect.InvocationTargetException
@@ -2577,7 +2577,7 @@ java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\Program Fil
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.713
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:32:04.053
 !MESSAGE Exception occurred while creating an instance of the stream connection provider
 !STACK 0
 java.lang.RuntimeException: Exception occurred while creating an instance of the stream connection provider
@@ -2663,7 +2663,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.716
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:32:04.056
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 1
 org.eclipse.core.runtime.CoreException: Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
@@ -2745,7 +2745,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.computeJavaPath(XMLLanguageServer.java:146)
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
-!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 14:01:17.716
+!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 15:32:04.056
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 0
 java.lang.reflect.InvocationTargetException
@@ -2898,7 +2898,7 @@ java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\Program Fil
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.717
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:32:04.057
 !MESSAGE Exception occurred while creating an instance of the stream connection provider
 !STACK 0
 java.lang.RuntimeException: Exception occurred while creating an instance of the stream connection provider
@@ -2984,7 +2984,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.722
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:32:04.062
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 1
 org.eclipse.core.runtime.CoreException: Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
@@ -3066,7 +3066,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.computeJavaPath(XMLLanguageServer.java:146)
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
-!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 14:01:17.722
+!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 15:32:04.063
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 0
 java.lang.reflect.InvocationTargetException
@@ -3219,7 +3219,7 @@ java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\Program Fil
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.723
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:32:04.063
 !MESSAGE Exception occurred while creating an instance of the stream connection provider
 !STACK 0
 java.lang.RuntimeException: Exception occurred while creating an instance of the stream connection provider
@@ -3305,7 +3305,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.726
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:32:04.066
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 1
 org.eclipse.core.runtime.CoreException: Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
@@ -3387,7 +3387,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.computeJavaPath(XMLLanguageServer.java:146)
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
-!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 14:01:17.726
+!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 15:32:04.067
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 0
 java.lang.reflect.InvocationTargetException
@@ -3540,7 +3540,7 @@ java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\Program Fil
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.727
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:32:04.068
 !MESSAGE Exception occurred while creating an instance of the stream connection provider
 !STACK 0
 java.lang.RuntimeException: Exception occurred while creating an instance of the stream connection provider
@@ -3626,7 +3626,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.730
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:32:04.071
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 1
 org.eclipse.core.runtime.CoreException: Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
@@ -3708,7 +3708,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.computeJavaPath(XMLLanguageServer.java:146)
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
-!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 14:01:17.730
+!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 15:32:04.071
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 0
 java.lang.reflect.InvocationTargetException
@@ -3861,7 +3861,7 @@ java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\Program Fil
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.731
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:32:04.072
 !MESSAGE Exception occurred while creating an instance of the stream connection provider
 !STACK 0
 java.lang.RuntimeException: Exception occurred while creating an instance of the stream connection provider
@@ -3947,7 +3947,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.735
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:32:04.077
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 1
 org.eclipse.core.runtime.CoreException: Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
@@ -4029,7 +4029,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.computeJavaPath(XMLLanguageServer.java:146)
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
-!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 14:01:17.736
+!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 15:32:04.077
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 0
 java.lang.reflect.InvocationTargetException
@@ -4182,7 +4182,7 @@ java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\Program Fil
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.736
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:32:04.078
 !MESSAGE Exception occurred while creating an instance of the stream connection provider
 !STACK 0
 java.lang.RuntimeException: Exception occurred while creating an instance of the stream connection provider
@@ -4268,7 +4268,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.739
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:32:04.081
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 1
 org.eclipse.core.runtime.CoreException: Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
@@ -4350,7 +4350,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.computeJavaPath(XMLLanguageServer.java:146)
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
-!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 14:01:17.740
+!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 15:32:04.081
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 0
 java.lang.reflect.InvocationTargetException
@@ -4503,7 +4503,7 @@ java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\Program Fil
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.740
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:32:04.082
 !MESSAGE Exception occurred while creating an instance of the stream connection provider
 !STACK 0
 java.lang.RuntimeException: Exception occurred while creating an instance of the stream connection provider
@@ -4589,7 +4589,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.743
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:32:04.085
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 1
 org.eclipse.core.runtime.CoreException: Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
@@ -4671,7 +4671,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.computeJavaPath(XMLLanguageServer.java:146)
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
-!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 14:01:17.744
+!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 15:32:04.086
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 0
 java.lang.reflect.InvocationTargetException
@@ -4824,7 +4824,7 @@ java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\Program Fil
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.761
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:32:04.087
 !MESSAGE Exception occurred while creating an instance of the stream connection provider
 !STACK 0
 java.lang.RuntimeException: Exception occurred while creating an instance of the stream connection provider
@@ -4910,7 +4910,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.767
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:32:04.091
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 1
 org.eclipse.core.runtime.CoreException: Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
@@ -4992,7 +4992,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.computeJavaPath(XMLLanguageServer.java:146)
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
-!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 14:01:17.767
+!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 15:32:04.092
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 0
 java.lang.reflect.InvocationTargetException
@@ -5145,7 +5145,7 @@ java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\Program Fil
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.768
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:32:04.093
 !MESSAGE Exception occurred while creating an instance of the stream connection provider
 !STACK 0
 java.lang.RuntimeException: Exception occurred while creating an instance of the stream connection provider
@@ -5231,7 +5231,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.771
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:32:04.096
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 1
 org.eclipse.core.runtime.CoreException: Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
@@ -5313,7 +5313,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.computeJavaPath(XMLLanguageServer.java:146)
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
-!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 14:01:17.771
+!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 15:32:04.096
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 0
 java.lang.reflect.InvocationTargetException
@@ -5466,7 +5466,7 @@ java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\Program Fil
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.772
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:32:04.097
 !MESSAGE Exception occurred while creating an instance of the stream connection provider
 !STACK 0
 java.lang.RuntimeException: Exception occurred while creating an instance of the stream connection provider
@@ -5552,7 +5552,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.775
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:32:04.100
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 1
 org.eclipse.core.runtime.CoreException: Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
@@ -5634,7 +5634,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.computeJavaPath(XMLLanguageServer.java:146)
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
-!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 14:01:17.775
+!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 15:32:04.101
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 0
 java.lang.reflect.InvocationTargetException
@@ -5787,7 +5787,7 @@ java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\Program Fil
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.776
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:32:04.102
 !MESSAGE Exception occurred while creating an instance of the stream connection provider
 !STACK 0
 java.lang.RuntimeException: Exception occurred while creating an instance of the stream connection provider
@@ -5873,7 +5873,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.781
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:32:04.105
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 1
 org.eclipse.core.runtime.CoreException: Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
@@ -5955,7 +5955,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.computeJavaPath(XMLLanguageServer.java:146)
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
-!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 14:01:17.781
+!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 15:32:04.106
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 0
 java.lang.reflect.InvocationTargetException
@@ -6108,7 +6108,7 @@ java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\Program Fil
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.782
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:32:04.106
 !MESSAGE Exception occurred while creating an instance of the stream connection provider
 !STACK 0
 java.lang.RuntimeException: Exception occurred while creating an instance of the stream connection provider
@@ -6194,7 +6194,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.785
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:32:04.110
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 1
 org.eclipse.core.runtime.CoreException: Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
@@ -6276,7 +6276,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.computeJavaPath(XMLLanguageServer.java:146)
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
-!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 14:01:17.785
+!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 15:32:04.110
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 0
 java.lang.reflect.InvocationTargetException
@@ -6429,7 +6429,7 @@ java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\Program Fil
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.786
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:32:04.111
 !MESSAGE Exception occurred while creating an instance of the stream connection provider
 !STACK 0
 java.lang.RuntimeException: Exception occurred while creating an instance of the stream connection provider
@@ -6515,7 +6515,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.790
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:32:04.114
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 1
 org.eclipse.core.runtime.CoreException: Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
@@ -6597,7 +6597,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.computeJavaPath(XMLLanguageServer.java:146)
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
-!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 14:01:17.790
+!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 15:32:04.114
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 0
 java.lang.reflect.InvocationTargetException
@@ -6750,7 +6750,7 @@ java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\Program Fil
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.791
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:32:04.115
 !MESSAGE Exception occurred while creating an instance of the stream connection provider
 !STACK 0
 java.lang.RuntimeException: Exception occurred while creating an instance of the stream connection provider
@@ -6836,7 +6836,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.796
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:32:04.119
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 1
 org.eclipse.core.runtime.CoreException: Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
@@ -6918,7 +6918,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.computeJavaPath(XMLLanguageServer.java:146)
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
-!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 14:01:17.796
+!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 15:32:04.119
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 0
 java.lang.reflect.InvocationTargetException
@@ -7071,7 +7071,7 @@ java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\Program Fil
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.797
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:32:04.120
 !MESSAGE Exception occurred while creating an instance of the stream connection provider
 !STACK 0
 java.lang.RuntimeException: Exception occurred while creating an instance of the stream connection provider
@@ -7157,7 +7157,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.801
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:32:04.124
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 1
 org.eclipse.core.runtime.CoreException: Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
@@ -7239,7 +7239,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.computeJavaPath(XMLLanguageServer.java:146)
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
-!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 14:01:17.801
+!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 15:32:04.125
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 0
 java.lang.reflect.InvocationTargetException
@@ -7392,7 +7392,7 @@ java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\Program Fil
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.802
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:32:04.125
 !MESSAGE Exception occurred while creating an instance of the stream connection provider
 !STACK 0
 java.lang.RuntimeException: Exception occurred while creating an instance of the stream connection provider
@@ -7478,7 +7478,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.805
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:32:04.129
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 1
 org.eclipse.core.runtime.CoreException: Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
@@ -7560,7 +7560,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.computeJavaPath(XMLLanguageServer.java:146)
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
-!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 14:01:17.805
+!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 15:32:04.129
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 0
 java.lang.reflect.InvocationTargetException
@@ -7713,7 +7713,7 @@ java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\Program Fil
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.806
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:32:04.130
 !MESSAGE Exception occurred while creating an instance of the stream connection provider
 !STACK 0
 java.lang.RuntimeException: Exception occurred while creating an instance of the stream connection provider
@@ -7799,7 +7799,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.811
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:32:04.133
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 1
 org.eclipse.core.runtime.CoreException: Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
@@ -7881,7 +7881,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.computeJavaPath(XMLLanguageServer.java:146)
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
-!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 14:01:17.811
+!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 15:32:04.134
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 0
 java.lang.reflect.InvocationTargetException
@@ -8034,7 +8034,7 @@ java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\Program Fil
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.812
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:32:04.135
 !MESSAGE Exception occurred while creating an instance of the stream connection provider
 !STACK 0
 java.lang.RuntimeException: Exception occurred while creating an instance of the stream connection provider
@@ -8120,7 +8120,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.815
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:32:04.138
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 1
 org.eclipse.core.runtime.CoreException: Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
@@ -8202,7 +8202,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.computeJavaPath(XMLLanguageServer.java:146)
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
-!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 14:01:17.816
+!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 15:32:04.138
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 0
 java.lang.reflect.InvocationTargetException
@@ -8355,7 +8355,7 @@ java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\Program Fil
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.816
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:32:04.139
 !MESSAGE Exception occurred while creating an instance of the stream connection provider
 !STACK 0
 java.lang.RuntimeException: Exception occurred while creating an instance of the stream connection provider
@@ -8441,7 +8441,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.819
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:32:04.143
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 1
 org.eclipse.core.runtime.CoreException: Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
@@ -8523,7 +8523,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.computeJavaPath(XMLLanguageServer.java:146)
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
-!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 14:01:17.820
+!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 15:32:04.143
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 0
 java.lang.reflect.InvocationTargetException
@@ -8676,7 +8676,7 @@ java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\Program Fil
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.820
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:32:04.145
 !MESSAGE Exception occurred while creating an instance of the stream connection provider
 !STACK 0
 java.lang.RuntimeException: Exception occurred while creating an instance of the stream connection provider
@@ -8762,7 +8762,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.884
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:32:04.149
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 1
 org.eclipse.core.runtime.CoreException: Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
@@ -8844,7 +8844,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.computeJavaPath(XMLLanguageServer.java:146)
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
-!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 14:01:17.884
+!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 15:32:04.149
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 0
 java.lang.reflect.InvocationTargetException
@@ -8997,7 +8997,7 @@ java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\Program Fil
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.885
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:32:04.150
 !MESSAGE Exception occurred while creating an instance of the stream connection provider
 !STACK 0
 java.lang.RuntimeException: Exception occurred while creating an instance of the stream connection provider
@@ -9083,7 +9083,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.888
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:32:04.153
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 1
 org.eclipse.core.runtime.CoreException: Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
@@ -9165,7 +9165,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.computeJavaPath(XMLLanguageServer.java:146)
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
-!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 14:01:17.888
+!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 15:32:04.153
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 0
 java.lang.reflect.InvocationTargetException
@@ -9318,7 +9318,7 @@ java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\Program Fil
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.889
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:32:04.154
 !MESSAGE Exception occurred while creating an instance of the stream connection provider
 !STACK 0
 java.lang.RuntimeException: Exception occurred while creating an instance of the stream connection provider
@@ -9404,7 +9404,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.892
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:32:04.159
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 1
 org.eclipse.core.runtime.CoreException: Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
@@ -9486,7 +9486,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.computeJavaPath(XMLLanguageServer.java:146)
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
-!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 14:01:17.893
+!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 15:32:04.160
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 0
 java.lang.reflect.InvocationTargetException
@@ -9639,7 +9639,7 @@ java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\Program Fil
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.894
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:32:04.161
 !MESSAGE Exception occurred while creating an instance of the stream connection provider
 !STACK 0
 java.lang.RuntimeException: Exception occurred while creating an instance of the stream connection provider
@@ -9725,7 +9725,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.900
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:32:05.689
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 1
 org.eclipse.core.runtime.CoreException: Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
@@ -9807,7 +9807,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.computeJavaPath(XMLLanguageServer.java:146)
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
-!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 14:01:17.900
+!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 15:32:05.689
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 0
 java.lang.reflect.InvocationTargetException
@@ -9960,7 +9960,7 @@ java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\Program Fil
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.901
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:32:05.690
 !MESSAGE Exception occurred while creating an instance of the stream connection provider
 !STACK 0
 java.lang.RuntimeException: Exception occurred while creating an instance of the stream connection provider
@@ -10046,7 +10046,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.904
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:32:05.693
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 1
 org.eclipse.core.runtime.CoreException: Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
@@ -10128,7 +10128,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.computeJavaPath(XMLLanguageServer.java:146)
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
-!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 14:01:17.904
+!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 15:32:05.693
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 0
 java.lang.reflect.InvocationTargetException
@@ -10281,7 +10281,7 @@ java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\Program Fil
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.905
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:32:05.694
 !MESSAGE Exception occurred while creating an instance of the stream connection provider
 !STACK 0
 java.lang.RuntimeException: Exception occurred while creating an instance of the stream connection provider
@@ -10367,7 +10367,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.908
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:32:05.697
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 1
 org.eclipse.core.runtime.CoreException: Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
@@ -10449,7 +10449,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.computeJavaPath(XMLLanguageServer.java:146)
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
-!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 14:01:17.908
+!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 15:32:05.698
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 0
 java.lang.reflect.InvocationTargetException
@@ -10602,7 +10602,7 @@ java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\Program Fil
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.909
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:32:05.699
 !MESSAGE Exception occurred while creating an instance of the stream connection provider
 !STACK 0
 java.lang.RuntimeException: Exception occurred while creating an instance of the stream connection provider
@@ -10688,7 +10688,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.932
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:52:04.954
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 1
 org.eclipse.core.runtime.CoreException: Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
@@ -10770,7 +10770,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.computeJavaPath(XMLLanguageServer.java:146)
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
-!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 14:01:17.932
+!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 15:52:04.955
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 0
 java.lang.reflect.InvocationTargetException
@@ -10923,7 +10923,7 @@ java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\Program Fil
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.933
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:52:04.956
 !MESSAGE Exception occurred while creating an instance of the stream connection provider
 !STACK 0
 java.lang.RuntimeException: Exception occurred while creating an instance of the stream connection provider
@@ -11009,7 +11009,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.936
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:52:04.982
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 1
 org.eclipse.core.runtime.CoreException: Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
@@ -11091,7 +11091,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.computeJavaPath(XMLLanguageServer.java:146)
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
-!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 14:01:17.936
+!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 15:52:04.982
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 0
 java.lang.reflect.InvocationTargetException
@@ -11244,7 +11244,7 @@ java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\Program Fil
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.937
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:52:04.983
 !MESSAGE Exception occurred while creating an instance of the stream connection provider
 !STACK 0
 java.lang.RuntimeException: Exception occurred while creating an instance of the stream connection provider
@@ -11330,7 +11330,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.941
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:52:04.987
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 1
 org.eclipse.core.runtime.CoreException: Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
@@ -11412,7 +11412,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.computeJavaPath(XMLLanguageServer.java:146)
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
-!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 14:01:17.941
+!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 15:52:04.987
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 0
 java.lang.reflect.InvocationTargetException
@@ -11565,7 +11565,7 @@ java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\Program Fil
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:17.942
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:52:04.988
 !MESSAGE Exception occurred while creating an instance of the stream connection provider
 !STACK 0
 java.lang.RuntimeException: Exception occurred while creating an instance of the stream connection provider
@@ -11651,7 +11651,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:18.164
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:52:04.992
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 1
 org.eclipse.core.runtime.CoreException: Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
@@ -11733,7 +11733,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.computeJavaPath(XMLLanguageServer.java:146)
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
-!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 14:01:18.164
+!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 15:52:04.992
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 0
 java.lang.reflect.InvocationTargetException
@@ -11886,7 +11886,7 @@ java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\Program Fil
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:18.165
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:52:04.993
 !MESSAGE Exception occurred while creating an instance of the stream connection provider
 !STACK 0
 java.lang.RuntimeException: Exception occurred while creating an instance of the stream connection provider
@@ -11972,7 +11972,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:18.168
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:52:04.997
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 1
 org.eclipse.core.runtime.CoreException: Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
@@ -12054,7 +12054,7 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.computeJavaPath(XMLLanguageServer.java:146)
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:66)
 	... 52 more
-!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 14:01:18.168
+!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2020-12-07 15:52:04.997
 !MESSAGE Plug-in "org.eclipse.wildwebdeveloper.xml" was unable to instantiate class "org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer".
 !STACK 0
 java.lang.reflect.InvocationTargetException
@@ -12207,7 +12207,7 @@ java.nio.file.InvalidPathException: Illegal char <"> at index 0: "D:\Program Fil
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
 
-!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 14:01:18.170
+!ENTRY org.eclipse.lsp4e 4 0 2020-12-07 15:52:04.998
 !MESSAGE Exception occurred while creating an instance of the stream connection provider
 !STACK 0
 java.lang.RuntimeException: Exception occurred while creating an instance of the stream connection provider
