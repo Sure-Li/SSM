@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        https://www.springframework.org/schema/context/spring-context.xsd">
+        <!-- 启动自动扫描 -->
+        <context:component-scan base-package="com.situ.spring">
+        <context:include-filter type="annotation" expression="org.springframework.stereotype.Repository"/>
+        <context:include-filter type="annotation" expression="org.springframework.stereotype.Service"/>
+        <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
+        </context:component-scan>
+</beans>
+
+<!-- <?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+        
+        class 全额类名
+        id生成实例的名称 要求在容器内唯一
+        
+         scope="prototype"
+         	singleton:默认值,单例。
+			开始:随着Spring容器启动而生成，销毁:随着Spring容器销毁而销毁。Spring容器负责管理其声明周期。
+			prototype:原态(每次请求都生成一个新的实例)
+			开始:销毁: Spring容器不负责管理其生命周期 由调用着去管理 调用完毕后 就销毁了
+         
+          scope="prototype"
+          lazy-init="default" lazy-init="true"
+          	控制当前的bean是否延迟初始化
+         	 默认情况下为false 在spring容器初始化的时候就会生成  
+         	 若果为true 则会延迟初始化 在使用的时候才会生成 不然不会生成
+          
+           
+           init-method="testInitMethod"
+           	随着系统启动而自动运行的方法 " "里的值自定
+           
+            
+             destroy-method=""
+             	将要销毁的方法 意义不大
+             
+              
+              abstract="true" 是否为抽象 抽象的话无法实例化 默认为false 
+              
+        <bean id="axe" class="com.situ.spring.impl.SteeleAxe" init-method="testInitMethod" >
+        <property name="initNumber" value="12" ></property>
+        <property name="testList">
+        <list>
+        <value>1</value>
+        <value>2</value>
+        <value>3</value>
+        </list>
+        </property>
+        <property name="testMap">
+        <map>
+        <entry key="AAA" value="1"></entry>
+         <entry key="BBB" value="1"></entry>
+          <entry key="CCC" value="1"></entry>
+        </map>
+        </property>
+        </bean>
+        <bean id="axeStone23" class="com.situ.spring.impl.StoneAxe"></bean>
+        <bean id="person" class="com.situ.spring.person.Person">
+        依赖注入
+        name：被注入类中取这个类的实例的名称 ref:配置注入的bean的id
+        java中bean的注入 property+java中的setter方法
+        
+        	<property name="axe" ref="axe"></property>
+        	<constructor-arg name="axeStone" ref="axeStone23"></constructor-arg>
+        	
+        </bean>
+ </beans> -->
+ 
