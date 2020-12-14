@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE log4j:configuration PUBLIC "-//log4j/log4j Configuration//EN" "log4j.dtd">
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+	<!-- log输出至控制台 -->
+	<appender name="STDOUT" class="org.apache.log4j.ConsoleAppender">
+		<layout class="org.apache.log4j.PatternLayout">
+		<!-- 日志格式的输出 -->
+			<param name="ConversionPattern" value="%d %-5p %c.%M:%L - %m%n" />
+		</layout>
+	</appender>
+	<!-- log输出至文件 -->
+	<appender name="FILE" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="file" value="E:/logs/scms.log" />
+		<!-- Keep one backup file -->
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d %-5p %c.%M:%L - %m%n" />
+		</layout>
+	</appender>
+	<!-- specify the logging level for loggers from other libraries -->
+	<!-- log的级别： FATAL>ERROR>WARN>INFO>DEBUG >TRACE>ALL -->
+	<logger name="org.springframework">
+		<level value="DEBUG" />
+	</logger>
+	<logger name="org.apache.ibatis">
+		<level value="DEBUG" />
+	</logger>
+	<logger name="com.zaxxer.hikari">
+		<level value="INFO" />
+	</logger>
+	<logger name="com.situ.springbind ">
+		<level value="DEBUG" />
+	</logger>
+	<!-- for all other loggers log only info and above log messages -->
+	<root>
+	<!-- 基本的日志输出的级别 上面log没有显示配置的 都以此为准 -->
+		<priority value="DEBUG" />
+		<!-- <appender-ref ref="FILE" /> -->
+		<appender-ref ref="STDOUT" />
+	</root>
+</log4j:configuration> 
