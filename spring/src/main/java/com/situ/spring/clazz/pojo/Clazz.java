@@ -2,6 +2,8 @@ package com.situ.spring.clazz.pojo;
 
 import java.io.Serializable;
 
+import org.apache.ibatis.type.Alias;
+@Alias("clazz")
 public class Clazz implements Serializable {
 
 	/**

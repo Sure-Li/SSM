@@ -3,6 +3,7 @@ package com.situ.spring.clazz.controller;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -14,6 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.situ.spring.clazz.pojo.Clazz;
+import com.situ.spring.clazz.service.ClazzService;
 /**
  * 
  * 
@@ -22,6 +24,8 @@ import com.situ.spring.clazz.pojo.Clazz;
 @RestController//继承了 responsebody和controller
 @RequestMapping("/clazz")
 public class ClazzController {
+	@Autowired
+	private ClazzService clazzService;
 	static List<Clazz> clazzList = new ArrayList<Clazz>();
 	static Long rowId = 0L;
 	static {
