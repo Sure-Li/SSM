@@ -38,4 +38,9 @@ public class StudentServiceImpl implements StudentService {
 		return studentDao.delectStudent(rowId);
 	}
 
+	@Override
+	public Integer checkCode(String code) {
+		return studentDao.checkCode();
+	}
+
 }

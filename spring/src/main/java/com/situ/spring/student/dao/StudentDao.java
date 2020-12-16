@@ -9,4 +9,5 @@ public interface StudentDao {
 	List<Student> findAll();
 	Integer updateStudent(Student student);
 	Integer delectStudent(String rowId);
+	Integer checkCode();
 }

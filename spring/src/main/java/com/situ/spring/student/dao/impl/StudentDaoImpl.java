@@ -35,4 +35,9 @@ private static List<Student> studentList = new ArrayList<Student>();
 		return null ;
 	}
 
+	@Override
+	public Integer checkCode() {
+		return 1;
+	}
+
 }

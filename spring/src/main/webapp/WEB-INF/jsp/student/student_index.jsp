@@ -24,7 +24,7 @@
 	<tr>
 			<td>${student.stuName}</td>
 			<td>${student.stuAge}</td>
-			<td>&nbsp;</td>
+			<td>${student.stuBirthday}</td>
 			<td><a href="student/goedit/${student.rowId}">修改</a><a href="student/delect/${student.rowId}">删除</a></td>
 	</tr>
 	</c:if>

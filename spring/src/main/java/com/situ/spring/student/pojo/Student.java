@@ -15,7 +15,7 @@ public class Student implements Serializable {
 	private String stuName;
 	private Integer stuAge;
 	private Integer stuSex;
-//	@DateTimeFormat(pattern = "yyyy-MM-dd")//将表单中得到的字符串格式的数据转换为date数据
+	@DateTimeFormat(pattern = "yyyy-MM-dd")//将表单中得到的字符串格式的数据转换为date数据
 	private Date stuBirthday;
 	public Long getRowId() {
 		return rowId;

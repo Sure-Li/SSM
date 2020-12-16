@@ -1,0 +1,26 @@
+@charset "UTF-8";
+body {
+margin: 1epx ;
+}
+.contaner div{
+	position: absolute;
+	border: solid 1px;
+}
+.contaner .top{
+	height: 60px;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+}
+.contaner .left{
+	width: 100px;
+	left: 0px;
+	top: 60px;
+	bottom: 0px;
+}
+.contaner .main{
+	top: 60px;
+	bottom: 0px;
+	left: 100px;
+	right: 0px;
+}

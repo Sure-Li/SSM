@@ -9,4 +9,5 @@ public interface StudentService {
 	Integer updateStudent(Student Student);
 	List<Student> findAllStudent();
 	Integer delectStudent(String rowId);
+	Integer checkCode(String code);
 }

@@ -13,9 +13,10 @@
 	<input type="hidden" name="rowId" value="${studentGoEdit.rowId}">
 		学生姓名<input name="stuName" value="${studentGoEdit.stuName}" /><br> 学生年龄<input name="stuAge" value="${studentGoEdit.stuAge}"/><br>
 		学生性别<select name="stuSex">
-			<option value="1">男</option>
-			<option value="0">女</option>
+			<option value="1" ${studentGoEdit.stuSex==1? "selected='selected'":''}>男</option>
+			<option value="0" ${studentGoEdit.stuSex==0? "selected='selected'":''}>女</option>
 		</select><br> 
+		 <%-- 学生生日<input type="date" name="stuBirthday" value="${studentGoEdit.stuBirthady}"><br> --%>
 		<input type="submit">
 	</form>
 </body>

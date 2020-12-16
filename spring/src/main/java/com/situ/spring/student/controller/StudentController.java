@@ -7,6 +7,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.situ.spring.student.pojo.Student;
 import com.situ.spring.student.service.StudentService;
@@ -64,9 +65,21 @@ public class StudentController {
 		studentService.updateStudent(student);
 		return "redirect:/student/index";
 	}
+	/**
+	 * restful 请求资源一样的URL来进行表单提交
+	 * 
+	 */
 	@RequestMapping("student/delect/{rowId}")
 	public String delect(@PathVariable("rowId") String rowId) {
-		studentService.delectStudent(rowId);
+		System.out.println("@PathVariable(\"rowId\")"+rowId);
+//		studentService.delectStudent(rowId);
 		return "redirect:/student/index";
+	}
+	
+	@ResponseBody//需要jackson加持 既可以修饰方法也可以类 
+	@RequestMapping("student/checkcode")
+	public Integer checkCode( String stuCode) {
+		System.out.println(stuCode);
+		return studentService.checkCode(stuCode);
 	}
 }
