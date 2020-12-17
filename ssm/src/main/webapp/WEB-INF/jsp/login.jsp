@@ -4,9 +4,10 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>ssm</title>
+<title>Insert title here</title>
+<jsp:include page="base.jsp"/>
 </head>
 <body>
-<h1>helloword</h1>
+
 </body>
 </html>
