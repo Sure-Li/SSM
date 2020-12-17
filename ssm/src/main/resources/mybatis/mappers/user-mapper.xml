@@ -3,5 +3,9 @@
   PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
   <mapper namespace="com.situ.ssm.user.dao.UserDao">
-  
+  <sql id="baseColum"> `USER_NAME`, `USER_CODE`, `USER_PASSWORD`, `USER_AVATAR`, `LOGIN_COUNT`, `LAST_LOGIN_IP`, `LAST_LOGIN_DATE`, `IS_LOCK`, `ACTIVE_FLAG`, `CREATE_BY`, `CREATE_DATE`<!-- , `UPDATE_BY`, `UPDATE_DATE` --></sql>
+  <insert id="save">
+  INSERT INTO `SSM`.`TB_USER` (<include refid="baseColum"></include>)
+   VALUES (#{userName}, #{userCode}, #{userPassword}, #{userAvatar}, #{loginCount}, #{lastLoginIp}, #{lastLoginDate}, #{isLock}, #{activeFlag}, #{createBy},#{createDate}<!-- , #{updateBy}, #{updateDate} -->); 
+  </insert>
   </mapper>

@@ -16,10 +16,30 @@ import org.springframework.web.servlet.ModelAndView;
  */
 @Controller
 public class IndexController {
+	/**
+	 * 
+	 * @Title: goindex 
+	 * @Description:(进首页)
+	 * @param modelAndView
+	 * @return
+	 */
 	@RequestMapping({ "/", "/index" })
 	public ModelAndView goindex(ModelAndView modelAndView) {
 		// WEB-INF/jsp/index.jsp
 		modelAndView.setViewName("index");
+		return modelAndView;
+	}
+	/**
+	 * 
+	 * @Title: goLogin 
+	 * @Description:(进登录页面)
+	 * @param modelAndView
+	 * @return
+	 */
+	@RequestMapping("/login")
+	public ModelAndView goLogin(ModelAndView modelAndView) {
+		// WEB-INF/jsp/login.jsp
+		modelAndView.setViewName("login");
 		return modelAndView;
 	}
 }
