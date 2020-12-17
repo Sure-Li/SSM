@@ -10,7 +10,7 @@
 	</appender>
 	<!-- log输出至文件 -->
 	<appender name="FILE" class="org.apache.log4j.DailyRollingFileAppender">
-		<param name="file" value="E:/logs/scms.log" />
+		<param name="file" value="E:/logs/ssm.log" />
 		<!-- Keep one backup file -->
 		<layout class="org.apache.log4j.PatternLayout">
 			<param name="ConversionPattern" value="%d %-5p %c.%M:%L - %m%n" />
@@ -22,13 +22,13 @@
 		<level value="INFO" />
 	</logger>
 	<logger name="org.apache.ibatis">
-		<level value="DEBUG" />
+		<level value="INFO" />
 	</logger>
 	<logger name="com.zaxxer.hikari">
 		<level value="INFO" />
 	</logger>
-	<logger name="com.situ.spring">
-		<level value="INFO" />
+	<logger name="com.situ.ssm">
+		<level value="DEBUG" />
 	</logger>
 	<!-- for all other loggers log only info and above log messages -->
 	<root>
