@@ -22,7 +22,7 @@
 		<level value="INFO" />
 	</logger>
 	<logger name="org.apache.ibatis">
-		<level value="INFO" />
+		<level value="DEBUG" />
 	</logger>
 	<logger name="com.zaxxer.hikari">
 		<level value="INFO" />

@@ -4,8 +4,30 @@
   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
   <mapper namespace="com.situ.ssm.user.dao.UserDao">
   <sql id="baseColum"> `USER_NAME`, `USER_CODE`, `USER_PASSWORD`, `USER_AVATAR`, `LOGIN_COUNT`, `LAST_LOGIN_IP`, `LAST_LOGIN_DATE`, `IS_LOCK`, `ACTIVE_FLAG`, `CREATE_BY`, `CREATE_DATE`<!-- , `UPDATE_BY`, `UPDATE_DATE` --></sql>
+  <sql id="baseSelect">SELECT ROW_ID,<include refid="baseColum"></include>FROM TB_USER WHERE ACTIVE_FLAG = 1</sql>
   <insert id="save">
   INSERT INTO `SSM`.`TB_USER` (<include refid="baseColum"></include>)
    VALUES (#{userName}, #{userCode}, #{userPassword}, #{userAvatar}, #{loginCount}, #{lastLoginIp}, #{lastLoginDate}, #{isLock}, #{activeFlag}, #{createBy},#{createDate}<!-- , #{updateBy}, #{updateDate} -->); 
   </insert>
+  <select id="findUserBySearch" resultType="User">
+  <include refid="baseSelect"></include>
+  <if test="userName!=null and userName!=''">
+  AND USER_NAME = #{userName}
+  </if>
+  <if test="userCode!=null and userCode!=''">
+  AND USER_CODE = #{userCode}
+  </if>
+  <if test="loginCount!=null and loginCount!=''">
+  AND LOGIN_COUNT = #{loginCount}
+  </if>
+  <if test="isLock!=null and isLock!=''">
+  AND IS_LOCK = #{isLock}
+  </if>
+  </select>
+  <select id="selectByCodeAndPassword" resultType="User">
+  SELECT ROW_ID,<include refid="baseColum"></include>FROM TB_USER WHERE ACTIVE_FLAG = 1 AND USER_CODE = #{userCode} AND USER_PASSWORD = #{userPassword};
+  </select>
+  <update id="update">
+  UPDATE `SSM`.`TB_USER` SET `USER_NAME` = #{userName} , `USER_CODE` = #{userCode} , `USER_PASSWORD` = #{userPassword} , `USER_AVATAR` = #{userAvatar} , `LOGIN_COUNT` = #{loginCount} , `LAST_LOGIN_IP` = #{lastLoginIp} , `LAST_LOGIN_DATE` = #{lastLoginDate} , `IS_LOCK` = #{isLock} , `ACTIVE_FLAG` = #{activeFlag} , `CREATE_BY` = #{createBy} , `CREATE_DATE` = #{createDate} , `UPDATE_BY` = #{updateBy} , `UPDATE_DATE` = #{updateDate} WHERE `ROW_ID` = #{rowId}; 
+  </update>
   </mapper>

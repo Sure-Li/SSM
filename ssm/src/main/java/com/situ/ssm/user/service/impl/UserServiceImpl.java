@@ -10,7 +10,9 @@ import java.io.File;
 import java.io.IOException;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.List;
 
+import org.apache.tomcat.util.buf.UEncoder;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
@@ -78,4 +80,15 @@ public class UserServiceImpl implements UserService {
 		user.setCreateDate(new Date());
 		return userDao.save(user);
 	}
+
+	/** 
+	 * @Title: findUserBySearch 
+	 * @Description:(这里用一句话描述这个方法的作用)
+	 * @return  
+	 */  
+	@Override
+	public List<User> findUserBySearch(User searchUser) {
+		return userDao.findUserBySearch(searchUser);
+	}
+	
 }

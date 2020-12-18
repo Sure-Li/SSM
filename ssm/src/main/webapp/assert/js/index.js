@@ -25,4 +25,25 @@ $(document).ready(function() {
 		});
 		return false;
 	});
+	$('.left').find('a').get(0).click();//自动点击*/
+	$('#btn_loginOut').off('click').on('click', function() {
+		
+		layer.alert('',{
+                icon:2,
+                area:['200px','200px'],
+                title:'退出确认',
+                content:'您确定要退出登陆吗？',
+                closeBtn:2},
+                function(index){
+					$.ajax({
+						url:'dologinout',
+						success:function(data){
+							if(data==1){
+								location.href="index";
+							}
+						}
+					});
+                    layer.close(index);
+                }); 
+	});
 });

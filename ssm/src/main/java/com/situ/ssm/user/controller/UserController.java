@@ -9,6 +9,7 @@ package com.situ.ssm.user.controller;
 import java.io.File;
 import java.io.IOException;
 import java.util.Calendar;
+import java.util.List;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
@@ -51,11 +52,28 @@ public class UserController {
 	public String upload(MultipartFile userFile, HttpServletRequest request) {
 		String realPath = request.getServletContext().getRealPath("/");
 		return userService.doUploadAvatar(userFile, realPath);
-		
+
 	}
+
 	@PostMapping
-	public Integer doAddUser(User user,HttpSession session) {
+	public Integer doAddUser(User user, HttpSession session) {
 		String createBy = ServletUtil.getUserCodeBySession(session);
-		return userService.doAddUser(user,createBy);
+		return userService.doAddUser(user, createBy);
+	}
+
+	/**
+	 * 
+	 * @Title: getUserList
+	 * @Description:(加载页面的table数据)
+	 * @param searchUser
+	 * @param modelAndView
+	 * @return
+	 */
+	@GetMapping("list")
+	public ModelAndView getUserList(User searchUser, ModelAndView modelAndView) {
+		List<User> userList = userService.findUserBySearch(searchUser);
+		modelAndView.addObject("userList", userList);
+		modelAndView.setViewName("user/user_list");
+		return modelAndView;
 	}
 }

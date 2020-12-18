@@ -1,4 +1,10 @@
 $(document).ready(function(){
+	//页面加载完成之后直接加载文件的数据
+	initUserData();
+	//绑定查询数据
+	$('#btn_search').off('click').on('click',function(){
+		initUserData();
+	});
 	$('#btn-add').off('click').on('click',function(){
 		$.ajax({
 			url:'user/form',
@@ -44,6 +50,16 @@ $(document).ready(function(){
 			})
 		});
 		return false;
+	}
+	function initUserData(){
+		$.ajax({
+			url:'user/list',
+			type:'get',
+			data:$('#searchForm').serialize(),//将多条件查询表单
+			success:function(data){
+				$('#tbody_user').html(data);
+			}
+		});
 	}
 	
 });
