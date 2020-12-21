@@ -27,7 +27,16 @@
   <select id="selectByCodeAndPassword" resultType="User">
   SELECT ROW_ID,<include refid="baseColum"></include>FROM TB_USER WHERE ACTIVE_FLAG = 1 AND USER_CODE = #{userCode} AND USER_PASSWORD = #{userPassword};
   </select>
+   <select id="selectByCodeAndRowId" resultType="User">
+  SELECT ROW_ID,<include refid="baseColum"></include>FROM TB_USER WHERE ACTIVE_FLAG = 1 AND USER_CODE = #{userCode} AND ROW_ID = #{rowId};
+  </select>
   <update id="update">
   UPDATE `SSM`.`TB_USER` SET `USER_NAME` = #{userName} , `USER_CODE` = #{userCode} , `USER_PASSWORD` = #{userPassword} , `USER_AVATAR` = #{userAvatar} , `LOGIN_COUNT` = #{loginCount} , `LAST_LOGIN_IP` = #{lastLoginIp} , `LAST_LOGIN_DATE` = #{lastLoginDate} , `IS_LOCK` = #{isLock} , `ACTIVE_FLAG` = #{activeFlag} , `CREATE_BY` = #{createBy} , `CREATE_DATE` = #{createDate} , `UPDATE_BY` = #{updateBy} , `UPDATE_DATE` = #{updateDate} WHERE `ROW_ID` = #{rowId}; 
   </update>
+  <select id="findUserByRowId" resultType="User">
+  SELECT ROW_ID,<include refid="baseColum"></include>FROM TB_USER WHERE ACTIVE_FLAG = 1 AND ROW_ID = #{rowId};
+  </select>
+  <select id="selectAll" resultType="User">
+   <include refid="baseSelect"></include>
+  </select>
   </mapper>

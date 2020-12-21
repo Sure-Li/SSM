@@ -38,4 +38,21 @@ public interface UserDao extends BaseDao<User> {
 	 * @return
 	 */
 	User selectByCodeAndPassword(@Param("userCode") String userCode, @Param("userPassword") String userPassword);
+
+	/**
+	 * @Title: findUserByRowId
+	 * @Description:(这里用一句话描述这个方法的作用)
+	 * @param rowId
+	 * @return
+	 */
+	User findUserByRowId(Long rowId);
+
+	/** 
+	 * @Title: selectByCodeAndRowId
+	 * @Description:(这里用一句话描述这个方法的作用)
+	 * @param userCode
+	 * @param rowId
+	 * @return
+	 */
+	User selectByCodeAndRowId(@Param("userCode") String userCode, @Param("rowId") Long rowId);
 }

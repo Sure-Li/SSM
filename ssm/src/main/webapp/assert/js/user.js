@@ -55,11 +55,77 @@ $(document).ready(function(){
 		$.ajax({
 			url:'user/list',
 			type:'get',
+			dataType:'html',
 			data:$('#searchForm').serialize(),//将多条件查询表单
 			success:function(data){
 				$('#tbody_user').html(data);
 			}
 		});
 	}
-	
+	var editIndex = null;
+	function bindEditSubmit(){
+		$('#btn_userSubmitEdit').off('click').on('click',function(){
+			$.ajax({
+				type:'post',
+				url:'user/doedit',
+				data:$('#form_user_edit').serialize(),
+				success:function(data){
+					console.log(data);
+					if(data){
+						layer.close(editIndex);
+						$('#loginUserName').text(data);
+						initUserData();
+					}
+				}
+			})
+		});
+		return false;
+	}
+	$(document).off('click','#userEditId').on('click','#userEditId',function(){
+		console.log("userEditId");
+		var href = $(this).attr('href');
+		console.log(href);
+		$.ajax({
+			url:href,
+			type:'GET',
+			success:function(result){
+			editIndex=layer.open({
+                    type:1,
+                    title:"用户修改",
+                    area:['500px','500px'],
+                    content:result,
+					success:function(data){
+						bindFileUpload();
+						console.log("bindEditSubmit();");
+						bindEditSubmit();
+					}
+                }); 
+			}
+		});
+		return false;
+	});
+	$(document).off('click','#userDeleteId').on('click','#userDeleteId',function(){
+		console.log("userDeleteId");
+		var href = $(this).attr('href');
+		console.log(href);
+		layer.alert('',{
+                icon:2,
+                area:['200px','200px'],
+                title:'退出删除',
+                content:'您确定要删除吗？',
+                closeBtn:1},
+                function(index){
+					$.ajax({
+						url:href,
+						method:'get',
+						success:function(data){
+							if(data==1){
+								location.href="index";
+							}
+						}
+					});
+                    layer.close(index);
+                }); 
+		return false;
+	});
 });

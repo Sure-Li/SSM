@@ -16,7 +16,7 @@
 <div class="top">
 <h1>管理系统</h1>
 <span style="position: absolute;top: 10px;right: 10px">
-	${sessionScope.loginUser.userName}
+	<font id="loginUserName">${sessionScope.loginUser.userName}</font> 
 	<a href="JavaScript:;" id="btn_loginOut">退出</a>
 </span>
 </div>
@@ -30,6 +30,7 @@
 </body>
 <script type="text/javascript" src="assert\js\jQuery\jquery-3.4.1.js"></script>
 <script type="text/javascript" src="assert/js/layer/layer.js"></script>
+<script type="text/javascript" src="assert/js/app-ajax.js"></script>
 <script type="text/javascript" src="assert/uploadfile/jquery.uploadifive.js"></script>
 <script type="text/javascript" src="assert/js/index.js"></script>
 </html>

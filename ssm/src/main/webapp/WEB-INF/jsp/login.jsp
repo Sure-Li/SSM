@@ -12,6 +12,7 @@
 	<form id="form_login" style="text-align: center;">
 		 登陆账号：<input name="userCode"><br>
 		 登陆密码：<input type="password"name="userPassword"><br>
+		记住我：<input type="checkbox" name="isRemenber" ${sessionScope.isRemenber==1?"checked = 'checked'":"" }><br>
 		<input type="button" value="登录" id="btn_login">
 		<input type="reset">
 	</form>
@@ -33,6 +34,11 @@ $(document).ready(function(){
 				}
 			}
 		});
+	});
+	$(window).on('keydown',function(event){
+		if(event.keyCode==13){
+			$('#btn_login').click();
+		}
 	});
 });
 </script>

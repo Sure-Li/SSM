@@ -40,4 +40,17 @@
 		<!-- 配置dispatch而Servlet要拦截的请求 -->
 		<url-pattern>/</url-pattern>
 	</servlet-mapping>
+
+	<!-- 解决ajax put delete 405问题 开始 -->
+	<!-- <filter>
+		<filter-name>HiddenHttpMethodFilter</filter-name>
+		<filter-class>org.springframework.web.filter.HiddenHttpMethodFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>HiddenHttpMethodFilter</filter-name>
+		备注，这边的名称必须和配置'springmvc'的servlet名称一样
+		<servlet-name>springMVC</servlet-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping> -->
+	<!-- 解决ajax put delete 405问题 结束 -->
 </web-app>

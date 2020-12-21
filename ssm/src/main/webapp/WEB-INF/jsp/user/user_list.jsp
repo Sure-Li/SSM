@@ -11,8 +11,9 @@
 				<td>${user.loginCount}</td>
 				<td>${user.lastLoginIp}&nbsp;<fmt:formatDate value="${user.lastLoginDate}" pattern="yyyy-MM-dd HH:mm:ss"/></td>
 				<td>${user.isLock==1?"锁定":"正常"}</td>
-				<td><a href="clazz/${clazz.rowId}" id="clazzEditId">修改</a><a
-					href="clazz/${clazz.rowId}" id="clazzDeleteId">删除</a></td>
+				<td>
+				<a href="user/edit/${user.rowId}" id="userEditId">修改</a>
+				<a href="user/delete/${user.rowId}" id="userDeleteId">删除</a></td>
 			</tr>
 		</c:if>
 	</c:forEach>

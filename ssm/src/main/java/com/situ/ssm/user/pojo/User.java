@@ -95,4 +95,10 @@ public class User extends BaseClass implements Serializable {
 		this.isLock = isLock;
 	}
 
+	@Override
+	public String toString() {
+		return "User [userName=" + userName + ", userCode=" + userCode + ", userPassword=" + userPassword
+				+ ", userAvatar=" + userAvatar + ", loginCount=" + loginCount + ", lastLoginIp=" + lastLoginIp
+				+ ", lastLoginDate=" + lastLoginDate + ", isLock=" + isLock + "]";
+	}
 }

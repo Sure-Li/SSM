@@ -15,13 +15,30 @@
 	<mvc:annotation-driven></mvc:annotation-driven>
 	<!-- <mvc:default-servlet-handler />会在Spring MVC上下文中定义一个org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler，对进入DispatcherServlet的URL进行筛查，如果发现是静态资源的请求，就将该请求转由Web应用服务器默认的Servlet处理，如果不是静态资源的请求，才由DispatcherServlet继续处理。 -->
 	<mvc:default-servlet-handler />
+	<!-- 配置自定义拦截器开始 -->
+	<mvc:interceptors>
+		<mvc:interceptor>
+			<!-- 白名单 -->
+			<!-- /* 只管一级url  /**所有url都拦截 包括层级请求-->
+			<mvc:mapping path="/**" />
+			<!-- 黑名单 不需要过拦截器 -->
+			<mvc:exclude-mapping path="/login" />
+			<mvc:exclude-mapping path="/dologin" />
+			<mvc:exclude-mapping path="/dologinout" />
+			<mvc:exclude-mapping path="/" />
+			<mvc:exclude-mapping path="/index" />
+			<mvc:exclude-mapping path="/assert/**" />
+			
+			<bean class="com.situ.ssm.interceptor.MyInterceptor"></bean>
+		</mvc:interceptor>
+	</mvc:interceptors>
 	<!-- 配置视图解析器 -->
 	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		<property name="viewClass" value="org.springframework.web.servlet.view.JstlView"></property>
 		<property name="prefix" value="/WEB-INF/jsp/"></property>
 		<property name="suffix" value=".jsp"></property>
 	</bean>
-	
+
 	<!-- 配置文件上传,如果没有使用文件上传可以不用配置,当然如果不配,那么配置文件中也不必引入上传组件包 -->
 	<bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
 		<!-- 默认编码 -->
@@ -31,5 +48,4 @@
 		<!-- 内存中的最大值 -->
 		<property name="maxInMemorySize" value="40960" />
 	</bean>
-
 </beans>

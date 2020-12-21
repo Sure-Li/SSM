@@ -16,14 +16,20 @@ import javax.servlet.http.HttpSession;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.situ.ssm.user.pojo.User;
 import com.situ.ssm.user.service.UserService;
+import com.situ.ssm.util.MD5Util;
 import com.situ.ssm.util.ServletUtil;
 
 /**
@@ -75,5 +81,27 @@ public class UserController {
 		modelAndView.addObject("userList", userList);
 		modelAndView.setViewName("user/user_list");
 		return modelAndView;
+	}
+
+	@GetMapping("/edit/{rowId}")
+	public ModelAndView goUserEdit(@PathVariable Long rowId, ModelAndView modelAndView) {
+		System.out.println(rowId);
+		User user = userService.findUserByRowId(rowId);
+		System.out.println(user);
+		modelAndView.addObject("user", user);
+		modelAndView.setViewName("user/user_edit");
+		return modelAndView;
+	}
+
+	@PostMapping("/doedit")
+	public String doUserEdit(User user ) {
+		int result = userService.update(user);
+		return user.getUserName();
+	}
+
+	@GetMapping("/delete/{rowId}")
+	public Integer doDelete(@PathVariable Long rowId) {
+		System.out.println("@PathVariable Long rowId" +rowId);
+		return userService.delete(rowId);
 	}
 }
