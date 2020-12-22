@@ -16,6 +16,7 @@ import javax.annotation.PostConstruct;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.multipart.MultipartFile;
 
 import com.situ.ssm.user.dao.UserDao;
@@ -73,14 +74,21 @@ public class UserServiceImpl implements UserService {
 	 * @return
 	 */
 	@Override
+	@Transactional // 可以修饰类和方法
 	public Integer doAddUser(User user, String createBy) {
+		// 打开事务
 		user.setUserPassword(MD5Util.encode(user.getUserPassword()));
 		user.setLoginCount(0);
 		user.setIsLock(User.IS_LOCK_NO);
 		user.setActiveFlag(1);
 		user.setCreateBy(createBy);
 		user.setCreateDate(new Date());
+		// 模拟一个部门员工数量的更新
+
 		return userDao.save(user);
+
+		// 如果多条sql语句运行没有问题 则提交commit
+		// 否则回滚rollback
 	}
 
 	/**
@@ -137,17 +145,17 @@ public class UserServiceImpl implements UserService {
 		return userDao.update(userGet);
 	}
 
-	/** 
-	 * @Title: initUSerData 
-	 * @Description:(这里用一句话描述这个方法的作用)  
-	 */  
-	@PostConstruct//修饰的就类似于spring容器里的init-method
+	/**
+	 * @Title: initUSerData
+	 * @Description:(这里用一句话描述这个方法的作用)
+	 */
+	@PostConstruct // 修饰的就类似于spring容器里的init-method
 	@Override
 	public void initUSerData() {
 //		LOG.debug("@PostConstruct//修饰的就类似于spring容器里的init-method\n" + 
 //				"	@Override");
 		List<User> userList = userDao.selectAll();
-		if(userList==null || userList.size()==0) {
+		if (userList == null || userList.size() == 0) {
 			User user = new User();
 			user.setActiveFlag(1);
 			user.setCreateBy("admin");
